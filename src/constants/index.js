@@ -12,12 +12,11 @@ import {
   nodejs,
   mongodb,
   git,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  ecomschool,
+  codingacademy,
+  hagymnasia,
+  trebello,
+  FitKit,
   threejs,
 } from "../assets";
 
@@ -110,7 +109,7 @@ const courses = [
   {
     title: "Machine Learning with AI Developer",
     school: "Ecom School",
-    icon: starbucks,
+    icon: ecomschool,
     iconBg: "#383E56",
     date: "August 2023 - Present",
     points: [
@@ -123,7 +122,7 @@ const courses = [
   {
     title: "Full-Stack BootCamp",
     school: "Coding Academy",
-    icon: tesla,
+    icon: codingacademy,
     iconBg: "#E6DEDD",
     date: "December 2022 - May 2023",
     points: [
@@ -137,7 +136,7 @@ const courses = [
   {
     title: "Fitness instructor",
     school: "HaGymnasia",
-    icon: shopify,
+    icon: hagymnasia,
     iconBg: "#383E56",
     date: "April 2020 - August 2020",
     points: [
@@ -155,19 +154,19 @@ const courses = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Vlad is a proficient React developer with strong communication skills, consistently delivering top-notch results through technical competence and effective collaboration.",
+    name: "Alon Dai",
+    designation: "Team Lead",
+    company: "Coding Academy",
+    image: "https://cdn-icons-png.flaticon.com/512/2815/2815428.png",
   }
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Trebello",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      `Trebello simplifies team management. You can get started by clicking the "Get Started" button or using one of our templates. Create and manage vacation trip plans or streamline your team's office environment. The possibilities are endless.`,
     tags: [
       {
         name: "react",
@@ -178,17 +177,21 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "websockets",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: trebello,
+    source_code_link_git: "https://github.com/BatalinVlad/Trebello",
+    source_code_link: "https://trebello.netlify.app/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "FitKit",
+    description: "Diet plans app that empowers you to effortlessly create personalized meal plans, all thanks to the innovative integration of the ChatGPT-3.5 API. With this unique tool, achieving your nutritional goals becomes both convenient and efficient.",
     tags: [
       {
         name: "react",
@@ -203,8 +206,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: FitKit,
+    source_code_link_git: "https://github.com/BatalinVlad/FitKit",
+    source_code_link: "https://fitkit-app.netlify.app/",
   }
 ];
 

@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import projectlink from "./projectlink.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,14 +22,12 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import codingacademy from "./company/codingacademy.png";
+import ecomschool from "./company/ecomschool.png";
+import hagymnasia from "./company/hagymnasia.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import trebello from "./trebello.png";
+import FitKit from "./FitKit.png";
 
 export {
   logo,
@@ -37,6 +36,7 @@ export {
   mobile,
   web,
   github,
+  projectlink,
   menu,
   close,
   css,
@@ -52,11 +52,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  codingacademy,
+  ecomschool,
+  hagymnasia,
+  trebello,
+  FitKit,
 };
